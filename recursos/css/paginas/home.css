@@ -1,0 +1,202 @@
+/*quem sou eu*/
+.quem-sou-eu{
+	width: 100%;
+	display: block;
+	background-image: url('../../imagens/fundo-banner.png');
+	background-repeat: no-repeat;
+	background-size: cover ;
+}
+.quem-sou-eu .conteudo{
+	width: 100%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.quem-sou-eu .conteudo .img{
+	width: 100%;
+}
+.quem-sou-eu .conteudo .img img{
+	width: auto;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.quem-sou-eu .conteudo .texto{
+	width: 100%;
+	margin-top: -50px;
+	margin-bottom: 50px;
+}
+.quem-sou-eu .conteudo .texto h1{
+	font-weight: 500;
+	font-style: italic;
+	margin-bottom: 65px;
+	position: relative;
+	font-size: xxx-large;
+}
+.quem-sou-eu .conteudo .texto h1:after{
+	width: 150px;
+	height: 5px;
+	background-color: #fff;
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	content: ' ';
+}
+.quem-sou-eu .conteudo .descricao{
+	margin-bottom: 60px;
+	width: 100%;
+	display: block;
+}
+.quem-sou-eu .conteudo .descricao p{
+	line-height: 26px;
+	margin-bottom: 30px;
+	width: 100%;
+	display: block;
+}
+@media only screen and (min-width: 1024px){
+	.quem-sou-eu .conteudo .img{
+		width: 54%;
+	}
+	.quem-sou-eu .conteudo .texto{
+		width: 45%;
+		margin-left: 0px 0px 0px -60px;
+	}
+}
+
+/*Eventos*/
+.eventos{
+	background-color: #fff;
+	padding: 115px 0px;
+	width: 100%;
+	display: block;
+}
+.eventos .conteudo{
+	width: 100%;
+	display: block;
+}
+.eventos .conteudo .itens{
+	width: 100%;
+	display: block;
+	margin-top: 70px;
+}
+.eventos .conteudo .itens .item{
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-bottom: 50px;
+}
+.eventos .conteudo .itens .item:last-child{
+	margin-bottom: 0px;
+}
+.eventos .conteudo .itens .item .img{
+	width: 100%;
+}
+.eventos .conteudo .itens .item .img img{
+	width: auto;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.eventos .conteudo .itens .item .texto{
+	width: 100%;
+	margin-bottom: 50px;
+}
+.eventos .conteudo .itens .item .texto h3{
+	font-size: 24px;
+	font-weight: 500;
+	font-style: italic;
+	margin-bottom: 45px;
+	color: #000;
+	position: relative;
+}
+.eventos .conteudo .itens .item .texto h3:after{
+	width: 150px;
+	height: 5px;
+	background-color: #000;
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	content: ' ';
+}
+.eventos .conteudo .itens .item .descricao{
+	width: 100%;
+	display: block;
+}
+.eventos .conteudo .itens .item .descricao p{
+	line-height: 26px;
+	margin-bottom: 30px;
+	width: 100%;
+	display: block;
+	color: #000;
+}
+@media only screen and (min-width: 1024px){
+	.eventos .conteudo .itens .item .img{
+		width: 50%;
+	}
+	.eventos .conteudo .itens .item .texto{
+		width: 45%;
+		margin-bottom: 0px;
+	}
+	.eventos .conteudo .itens .item:nth-child(2n) .img{
+		order: 0;
+	}
+	.eventos .conteudo .itens .item:nth-child(2n) .texto{
+		order: 1;
+	}
+}
+/*Nosso curso*/
+.cursos{
+	width: 100%;
+	display: block;
+	background-image: url('../../imagens/fundo-banner.png');
+	background-repeat: no-repeat;
+	background-size: cover ;
+	padding: 120px 0px 70px 0px;
+}
+.cursos .conteudo .itens {
+	margin-top: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
+.cursos .conteudo .itens .item{
+	width: 100%;
+	display: block;
+	position: relative;
+	margin-bottom: 50px;
+}
+.cursos .conteudo .itens .item .img{
+	width: 100%;
+	display: block;
+}
+.cursos .conteudo .itens .item .img img{
+	width: 100%;
+	display: block;
+}
+
+.cursos .conteudo .itens .item .titulo{
+	width: 100%;
+	display: block;
+	padding: 20px;
+	position: absolute;
+	bottom: 0px;
+	font-size: 18px;
+}
+@media only screen and (min-width: 768px){
+	.cursos .conteudo .itens .item{
+		width: 48%;
+	}
+}
+@media only screen and (min-width: 1024px){
+	.cursos .conteudo .itens .item{
+		width: 24%;
+	}
+}
